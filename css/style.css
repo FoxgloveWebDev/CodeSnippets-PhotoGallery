@@ -1,0 +1,20 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+}
+
+.gallery {
+    margin: 10px 50px;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.gallery img:hover {
+    filter: sepia(100%);
+    transform: scale(1.1);
+}
